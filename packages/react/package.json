@@ -94,7 +94,8 @@
     "nanostores": "^0.10.3",
     "picomatch": "^4.0.2",
     "react": "^18.3.1",
-    "react-resizable-panels": "^2.0.19"
+    "react-resizable-panels": "^2.0.19",
+    "temporary-tolk-pkg": "link:../../temporary-tolk-pkg"
   },
   "devDependencies": {
     "@codemirror/search": "^6.5.6",
