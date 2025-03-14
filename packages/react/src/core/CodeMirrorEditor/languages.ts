@@ -92,6 +92,13 @@ export const supportedLanguages = [
       return import('@replit/codemirror-lang-svelte').then((module) => module.svelte());
     },
   }),
+  LanguageDescription.of({
+    name: 'Tolk',
+    extensions: ['tolk'],
+    async load() {
+      return import('temporary-tolk-pkg').then((module) => module.tolk());
+    }
+  })
 ];
 
 export async function getLanguage(fileName: string) {
